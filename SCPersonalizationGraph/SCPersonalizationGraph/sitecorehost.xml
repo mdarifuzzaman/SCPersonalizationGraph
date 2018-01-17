@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <Logging>
+    <ConfigureLogging>Sitecore.Framework.Logging.Serilog.ConfigureSitecoreLogging, Sitecore.Framework.Logging.Serilog</ConfigureLogging>
+    <Serilog>
+      <Using>
+        <Literate>Serilog.Sinks.Literate</Literate>
+        <Rolling>Serilog.Sinks.RollingFile</Rolling>
+        <Environment>Serilog.Enrichers.Environment</Environment>
+      </Using>
+      <MinimumLevel>
+        <Default>Debug</Default>
+      </MinimumLevel>
+      <WriteTo>
+        <ConsoleLogger>
+          <Name>LiterateConsole</Name>
+          <Args>
+            <outputTemplate>[{Timestamp:HH:mm:ss}] {SourceContext} [{Level}] {Message}{NewLine}{Exception}</outputTemplate>
+          </Args>
+        </ConsoleLogger>
+        <DefaultLogger>
+          <Name>RollingFile</Name>
+          <Args>
+            <pathFormat>logs\Publishing-{Date}.log</pathFormat>
+            <outputTemplate>{Timestamp:o} [{Level:u3}] ({Application}/{MachineName}) {Message}{NewLine}{Exception}</outputTemplate>
+          </Args>
+        </DefaultLogger>
+      </WriteTo>
+      <Enrich>
+        <FromLogContext>FromLogContext</FromLogContext>
+        <WithMachineName>WithMachineName</WithMachineName>
+      </Enrich>
+      <Properties>
+        <Application>SerilogSample</Application>
+      </Properties>
+    </Serilog>
+  </Logging>
+  <ConnectionString>Password=12345;User ID=sa;Initial Catalog=sc901rev171113_Sitecore.Analytics;Data Source=LT-MDA2-T-MY\MSSQLSERVER2</ConnectionString>
+</Settings>
