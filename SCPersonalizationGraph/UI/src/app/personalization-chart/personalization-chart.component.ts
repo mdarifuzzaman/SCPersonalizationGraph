@@ -39,12 +39,12 @@ export class PersonalizationChartComponent implements OnInit {
     // this.getData();
     //this.dataService.getLabels().subscribe(l => this.lineChartLabels = l);
 
-    // this.dataService.getGraphData().then(data => {
-    //   console.log(data);
+    this.dataService.getGraphData().then(data => {
+      console.log(data);
 
-    //   let summaryData = data.summaryData;
-    //   this.plotSummary(summaryData);
-    // })
+      let summaryData = data.summaryData;
+      this.plotSummary(summaryData);
+    })
   }
 
   plotSummary(summaryData: any) {

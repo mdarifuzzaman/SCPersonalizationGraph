@@ -14,7 +14,7 @@ export class BarChartComponent implements OnInit {
 
   public data:Array<any>;
 
-  public labels: Array<any>; 
+  public labels: Array<any> = []; 
   public options: any = {
     responsive: false,
     showLines: true,
@@ -35,7 +35,8 @@ export class BarChartComponent implements OnInit {
 
     this.dataService.getGraphData().then(data => {
       console.log(data);
-      this.restructureData(data.summaryByRuleset);
+      let newData = this.restructureData(data.summaryByRuleset);
+      this.data = newData;
     });
   }
 
@@ -44,22 +45,43 @@ export class BarChartComponent implements OnInit {
     let d1 = {};
     for (let i = 0; i < data.length; i++) {
       const d = data[i];
-      if(d1[d.date] == undefined) {
-        d1[d.date] = {};
+      if(d1[d.ruleSetId] == undefined) {
+        d1[d.ruleSetId]  = {};
       }
-      if(d1[d.date][d.ruleSetId] == undefined) {
-        d1[d.date][d.ruleSetId]  = {};
+      if(d1[d.ruleSetId][d.testSetId] == undefined) {
+        d1[d.ruleSetId][d.testSetId]  = {};
       }
 
-      d1[d.date][d.ruleSetId][d.testSetId]  = {
+      d1[d.ruleSetId][d.testSetId]  = {
         totalVisits: d.totalVisits,
         totalVisitors: d.totalVisitors,
-        totalValue: d.totalValue
+        totalValue: d.totalValue,
+        date: d.date
       };
     }
 
+    let dataset = [];
+
+    let keys = Object.keys(d1);
+    for (let i = 0; i < keys.length; i++) {
+      const key = keys[i];
+      
+      const s = d1[key];
+      let testKeys = Object.keys(s);
+      for (let j = 0; j < testKeys.length; j++) {
+        const testKey = testKeys[j];
+        let series = {
+          stack: key,
+          label: testKey,
+          data: [{x:s[testKey].date, y: s[testKey].totalValue }]
+        };
+        dataset.push(series);
+      }
+      this.labels.push(key);
+    }
+
     console.log(d1);
-    return d1;
+    return dataset;
   }
 
   plotData(data: any) {
