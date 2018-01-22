@@ -1,6 +1,24 @@
+<div class="main">
 
-<app-personalization-chart></app-personalization-chart>
+    <div class="container" class="cntr">
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Choose a chart of Visualizing Personalization Test Data
+            </button>
+            <div class="dropdown-menu">
+            <a class="dropdown-item" href="#" (click)="doPersonalization()">Personalization Chart</a>
+            <a class="dropdown-item" href="#" (click)="doBar()">Bar Chart</a>
+            <a class="dropdown-item" href="#" (click)="doPi()">Pi Chart</a>
+            </div>
+        </div>
+    </div>
+    <br/>
 
-<app-bar-chart></app-bar-chart>
+    <div class="internal">
+        <app-personalization-chart *ngIf="personalizationChart"></app-personalization-chart>
 
-<app-pi-chart></app-pi-chart>
+        <app-bar-chart *ngIf="barChart"></app-bar-chart>
+
+        <app-pi-chart *ngIf="piChart"></app-pi-chart>
+    </div>
+</div>
