@@ -40,7 +40,7 @@ namespace SCPersonalizationGraph
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseCors(config => config.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials());            
+            app.UseCors(config => config.WithOrigins("*").AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials());            
 
             app.UseMvc(routes =>
             {

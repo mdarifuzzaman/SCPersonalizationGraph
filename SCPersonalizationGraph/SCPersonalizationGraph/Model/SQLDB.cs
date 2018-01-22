@@ -84,7 +84,7 @@ namespace SCPersonalizationGraph.Model
             var ds = new DataSet("Personalization_Summary");
 
             var selectCommand = "SELECT Date, RuleSetId, TestSetId, Sum(Visits) TotalVisits, sum(Value) TotalValue, sum(Visitors) TotalVisitors" + 
-            " FROM[sc901rev171113_Sitecore.Analytics].[dbo].[Fact_Personalization] " + 
+            " FROM Fact_Personalization " + 
             " group by date, rulesetid, testsetid";
             SqlDataAdapter adapter = new SqlDataAdapter(selectCommand, Connection);
             adapter.Fill(ds);

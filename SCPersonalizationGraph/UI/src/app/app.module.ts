@@ -1,18 +1,28 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule }    from '@angular/common/http';
+import { ChartsModule } from 'ng2-charts';
 
 
 import { AppComponent } from './app.component';
+import { PersonalizationChartComponent } from './personalization-chart/personalization-chart.component';
+import { PersonalizationDataService } from './personalization-data.service';
+import { Http } from '@angular/http';
+import { BarChartComponent } from './bar-chart/bar-chart.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PersonalizationChartComponent,
+    BarChartComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ChartsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [PersonalizationDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

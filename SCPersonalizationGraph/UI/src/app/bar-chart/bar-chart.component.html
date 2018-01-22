@@ -1,0 +1,17 @@
+
+<div class="row">
+  <div class="col-md-6">
+    <div style="display: block;">
+    <canvas baseChart width="1000" height="800" id="bar-chart" *ngIf="data"
+                [datasets]="data"
+                [labels]="labels"
+                [options]="options"
+                
+                [legend]="legend"
+                chartType="bar"></canvas>
+    </div>
+  </div>
+  <div class="col-md-6" style="margin-bottom: 10px">
+    
+  </div>
+</div>

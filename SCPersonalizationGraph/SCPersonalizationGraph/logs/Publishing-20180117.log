@@ -764,3 +764,172 @@ Error Number:156,State:1,Class:15
 2018-01-17T16:18:55.1843756+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 548.206ms 200 application/json; charset=utf-8
 2018-01-17T16:18:55.3084666+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
 2018-01-17T16:18:55.3187394+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 8.8074ms 200 
+2018-01-17T16:24:04.2693455+08:00 [INF] (SerilogSample/LT-OME-T-MY) User profile is available. Using '"C:\Users\ome\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-17T16:24:04.4194556+08:00 [INF] (SerilogSample/LT-OME-T-MY) Creating key {0c8e77ef-c48b-4c61-893a-a45c81a79b7a} with creation date 2018-01-17 08:24:04Z, activation date 2018-01-17 08:24:04Z, and expiration date 2018-04-17 08:24:04Z.
+2018-01-17T16:24:04.4449708+08:00 [INF] (SerilogSample/LT-OME-T-MY) Writing data to file '"C:\Users\ome\AppData\Local\ASP.NET\DataProtection-Keys\key-0c8e77ef-c48b-4c61-893a-a45c81a79b7a.xml"'.
+2018-01-17T16:24:24.9195292+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/  
+2018-01-17T16:24:25.2151171+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 335.0653ms 200 
+2018-01-17T16:24:25.4376714+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-17T16:24:25.4579570+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 14.6273ms 200 
+2018-01-17T16:24:54.9494041+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T16:24:55.1301861+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T16:24:55.1518636+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T16:24:56.1571304+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 1034.7943ms
+2018-01-17T16:24:56.1733169+08:00 [ERR] (SerilogSample/LT-OME-T-MY) An unhandled exception has occurred while executing the request
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'sc901rev171113_Sitecore.Analytics.dbo.Fact_Personalization'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SCPersonalizationGraph.Model.SQLDB.<GetSummaryByDateAndRuleset>d__4.MoveNext() in C:\playground\ScPersonalizationGraph\SCPersonalizationGraph\SCPersonalizationGraph\Model\SQLDB.cs:line 90
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SCPersonalizationGraph.Controllers.GraphController.<Get>d__2.MoveNext() in C:\playground\ScPersonalizationGraph\SCPersonalizationGraph\SCPersonalizationGraph\Controllers\GraphController.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+ClientConnectionId:b116540e-1035-4c49-a6e0-39937191f445
+Error Number:208,State:1,Class:16
+2018-01-17T16:24:58.3913618+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 3441.9791ms 500 text/html; charset=utf-8
+2018-01-17T16:24:58.4578449+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-17T16:24:58.7811757+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 323.3588ms 200 
+2018-01-17T16:26:06.5426106+08:00 [INF] (SerilogSample/LT-OME-T-MY) User profile is available. Using '"C:\Users\ome\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-17T16:26:13.2405552+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/  
+2018-01-17T16:26:13.5763586+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 322.4722ms 200 
+2018-01-17T16:26:13.6939896+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-17T16:26:14.0412553+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 347.5176ms 200 
+2018-01-17T16:26:20.8490044+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T16:26:20.9807661+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T16:26:20.9930533+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T16:26:21.4883125+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T16:26:21.6501206+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 668.7744ms
+2018-01-17T16:26:21.6576106+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 816.0706ms 200 application/json; charset=utf-8
+2018-01-17T16:26:21.7602469+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-17T16:26:21.7784578+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 13.1458ms 200 
+2018-01-17T16:26:32.9741595+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-17T16:26:33.0230226+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 48.8697ms 200 
+2018-01-17T16:27:08.1647440+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T16:27:08.1716637+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T16:27:08.1750929+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T16:27:08.1908591+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T16:27:08.1950166+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 23.6582ms
+2018-01-17T16:27:08.2018869+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 37.1269ms 200 application/json; charset=utf-8
+2018-01-17T16:27:08.3372915+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-17T16:27:08.3929101+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 55.5936ms 200 
+2018-01-17T16:37:38.0418359+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T16:37:38.5771473+08:00 [INF] (SerilogSample/LT-OME-T-MY) Policy execution successful.
+2018-01-17T16:37:38.6445766+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T16:37:38.6607320+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T16:37:38.6803418+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T16:37:38.6874948+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 42.959ms
+2018-01-17T16:37:38.6959212+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 654.1044ms 200 application/json; charset=utf-8
+2018-01-17T16:38:41.5562518+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T16:38:41.5682820+08:00 [INF] (SerilogSample/LT-OME-T-MY) Policy execution successful.
+2018-01-17T16:38:41.5729377+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T16:38:41.5812476+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T16:38:41.5957869+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T16:38:41.6003669+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 27.5694ms
+2018-01-17T16:38:41.6068369+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 50.5479ms 200 application/json; charset=utf-8
+2018-01-17T17:00:36.1655863+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T17:00:36.1705917+08:00 [INF] (SerilogSample/LT-OME-T-MY) Policy execution successful.
+2018-01-17T17:00:36.1773765+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T17:00:36.1801243+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T17:00:36.2001887+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T17:00:36.2064109+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 27.2651ms
+2018-01-17T17:00:36.2138390+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 48.34ms 200 application/json; charset=utf-8
+2018-01-17T17:02:29.5952505+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T17:02:29.6016729+08:00 [INF] (SerilogSample/LT-OME-T-MY) Policy execution successful.
+2018-01-17T17:02:29.6057278+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T17:02:29.6096800+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T17:02:29.6409713+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T17:02:29.6583513+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 52.6531ms
+2018-01-17T17:02:29.6698770+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 73.1007ms 200 application/json; charset=utf-8
+2018-01-17T17:03:01.1675115+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T17:03:01.2502048+08:00 [INF] (SerilogSample/LT-OME-T-MY) Policy execution successful.
+2018-01-17T17:03:02.6065876+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T17:03:03.2215242+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T17:03:03.2832788+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T17:03:03.2890395+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 682.4642ms
+2018-01-17T17:03:03.3594631+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 2191.9725ms 200 application/json; charset=utf-8
+2018-01-17T17:04:40.8904505+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T17:04:41.7213972+08:00 [INF] (SerilogSample/LT-OME-T-MY) Policy execution successful.
+2018-01-17T17:04:42.5258044+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T17:04:42.5663886+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T17:04:42.6026968+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T17:04:42.6235776+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 97.9116ms
+2018-01-17T17:04:42.7036781+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 1813.2382ms 200 application/json; charset=utf-8
+2018-01-17T17:05:45.6828217+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T17:05:45.7355629+08:00 [INF] (SerilogSample/LT-OME-T-MY) Policy execution successful.
+2018-01-17T17:05:46.5238148+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T17:05:47.1826715+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T17:05:47.2112540+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T17:05:47.2196967+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 695.8784ms
+2018-01-17T17:05:47.2573311+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 1574.5371ms 200 application/json; charset=utf-8
+2018-01-17T19:49:57.6299592+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T19:49:57.6381116+08:00 [INF] (SerilogSample/LT-OME-T-MY) Policy execution successful.
+2018-01-17T19:49:57.6494932+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T19:49:57.6540293+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T19:49:57.6751684+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T19:49:57.6843457+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 35.129ms
+2018-01-17T19:49:57.6926589+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 64.2057ms 200 application/json; charset=utf-8
+2018-01-17T19:52:56.2913043+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T19:52:56.3001512+08:00 [INF] (SerilogSample/LT-OME-T-MY) Policy execution successful.
+2018-01-17T19:52:56.3126073+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T19:52:56.3198128+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T19:52:56.3507363+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T19:52:56.4407653+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 128.1809ms
+2018-01-17T19:52:57.9855458+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 1694.2607ms 200 application/json; charset=utf-8
+2018-01-17T20:00:08.2228203+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-17T20:00:08.2417933+08:00 [INF] (SerilogSample/LT-OME-T-MY) Policy execution successful.
+2018-01-17T20:00:08.2512916+08:00 [INF] (SerilogSample/LT-OME-T-MY) GraphController: loaded
+2018-01-17T20:00:08.2564380+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-17T20:00:08.2752584+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-17T20:00:08.2807612+08:00 [INF] (SerilogSample/LT-OME-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 29.6861ms
+2018-01-17T20:00:08.3245920+08:00 [INF] (SerilogSample/LT-OME-T-MY) Request finished in 100.0153ms 200 application/json; charset=utf-8
