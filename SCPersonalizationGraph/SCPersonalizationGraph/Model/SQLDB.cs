@@ -113,5 +113,39 @@ namespace SCPersonalizationGraph.Model
             return datas;
         }
 
+        public static async Task<List<object>> GetTestValuePercentageRuleset()
+
+        {
+            await MakeConnection();
+            var ds = new DataSet("Personalization_Test_Percentage");
+
+            var selectCommand = "SELECT RuleSetId, Sum(Visits) TotalVisits, sum(Value) TotalValue, sum(Visitors) TotalVisitors" +
+            " FROM Fact_Personalization " +
+            " group by rulesetid";
+            SqlDataAdapter adapter = new SqlDataAdapter(selectCommand, Connection);
+            adapter.Fill(ds);
+            if (ds.Tables.Count <= 0)
+            {
+                return null;
+            }
+
+            var table = ds.Tables[0];
+            var datas = new List<object>();
+            foreach (DataRow tableRow in table.Rows)
+            {
+
+                datas.Add(new
+                {
+                    RuleSetId = tableRow[0].ToString(),
+                    TotalVisits = tableRow[1].ToString(),
+                    TotalValue = tableRow[2].ToString(),
+                    TotalVisitors = tableRow[3].ToString()
+
+                });
+            }
+
+            return datas;
+        }
+
     }
 }

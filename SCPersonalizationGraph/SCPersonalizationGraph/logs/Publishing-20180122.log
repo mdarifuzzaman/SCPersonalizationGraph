@@ -1,0 +1,907 @@
+2018-01-22T10:47:50.6378009+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) User profile is available. Using '"C:\Users\mda.DK\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-22T10:47:54.9370146+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/  
+2018-01-22T10:47:55.1490960+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 220.7679ms 200 
+2018-01-22T10:47:55.2367746+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-22T10:47:55.2698975+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 33.233ms 200 
+2018-01-22T10:49:26.3922590+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) User profile is available. Using '"C:\Users\mda.DK\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-22T10:49:29.7595009+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/  
+2018-01-22T10:49:29.8524125+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 104.0305ms 200 
+2018-01-22T10:49:29.9195021+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-22T10:49:29.9300129+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 10.3501ms 200 
+2018-01-22T10:49:56.5101894+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T10:49:56.5859238+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T10:49:56.6040212+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T10:49:56.9715828+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T10:49:57.0712283+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 489.1406ms
+2018-01-22T10:49:57.0762047+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 566.013ms 200 application/json; charset=utf-8
+2018-01-22T10:49:57.1081356+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-22T10:49:57.1157833+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 7.3642ms 200 
+2018-01-22T10:52:28.3613623+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T10:52:28.3664018+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T10:52:28.3742188+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T10:52:28.3789173+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T10:52:28.3966377+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T10:52:28.4021580+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 28.0384ms
+2018-01-22T10:52:28.4084506+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 46.4353ms 200 application/json; charset=utf-8
+2018-01-22T10:53:25.9879137+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T10:53:26.1349597+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T10:53:26.1589915+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T10:53:26.1682719+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T10:53:26.1987230+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T10:53:26.2072723+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 48.2911ms
+2018-01-22T10:53:26.2189220+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 231.0648ms 200 application/json; charset=utf-8
+2018-01-22T10:53:29.8928979+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T10:53:29.9153124+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T10:53:29.9326116+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T10:53:29.9507162+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T10:53:29.9664189+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T10:53:29.9740998+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 41.5064ms
+2018-01-22T10:53:29.9851503+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 91.2147ms 200 application/json; charset=utf-8
+2018-01-22T11:03:01.8904307+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:03:01.9035678+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:03:01.9125883+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:03:01.9221925+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:03:01.9399615+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:03:01.9525302+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 39.8519ms
+2018-01-22T11:03:01.9613358+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 70.9522ms 200 application/json; charset=utf-8
+2018-01-22T11:03:02.6944793+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:03:02.6990847+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:03:02.7030394+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:03:02.7092361+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:03:02.7185700+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:03:02.7227799+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 19.7481ms
+2018-01-22T11:03:02.7302927+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 35.1425ms 200 application/json; charset=utf-8
+2018-01-22T11:05:10.6118302+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) User profile is available. Using '"C:\Users\mda.DK\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-22T11:05:13.6619938+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/  
+2018-01-22T11:05:13.8265983+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 182.4851ms 200 
+2018-01-22T11:05:13.9013568+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-22T11:05:13.9241175+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 22.6954ms 200 
+2018-01-22T11:05:17.6662056+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:05:17.7554102+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:05:17.7663149+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:05:23.0758576+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 5321.7806ms
+2018-01-22T11:05:23.0824262+08:00 [ERR] (SerilogSample/LT-MDA2-T-MY) An unhandled exception has occurred while executing the request
+System.IndexOutOfRangeException: Cannot find column 4.
+   at System.Data.DataColumnCollection.get_Item(Int32 index)
+   at System.Data.DataRow.get_Item(Int32 columnIndex)
+   at SCPersonalizationGraph.Model.SQLDB.<GetTestValuePercentageRuleset>d__5.MoveNext() in C:\Arif\Hackathone\PersonalizationGrpah\SCPersonalizationGraph\SCPersonalizationGraph\Model\SQLDB.cs:line 136
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SCPersonalizationGraph.Controllers.GraphController.<Get>d__2.MoveNext() in C:\Arif\Hackathone\PersonalizationGrpah\SCPersonalizationGraph\SCPersonalizationGraph\Controllers\GraphController.cs:line 33
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-22T11:05:23.4530250+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 5786.6949ms 500 text/html; charset=utf-8
+2018-01-22T11:06:08.7078675+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) User profile is available. Using '"C:\Users\mda.DK\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-22T11:06:11.7255471+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/  
+2018-01-22T11:06:11.8384117+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 134.2796ms 200 
+2018-01-22T11:06:11.8947570+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-22T11:06:11.9015123+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 6.5296ms 200 
+2018-01-22T11:06:18.6777076+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:06:18.7509496+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:06:18.7651631+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:06:28.5726139+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 9822.5148ms
+2018-01-22T11:06:28.5791472+08:00 [ERR] (SerilogSample/LT-MDA2-T-MY) An unhandled exception has occurred while executing the request
+System.IndexOutOfRangeException: Cannot find column 4.
+   at System.Data.DataColumnCollection.get_Item(Int32 index)
+   at System.Data.DataRow.get_Item(Int32 columnIndex)
+   at SCPersonalizationGraph.Model.SQLDB.<GetTestValuePercentageRuleset>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SCPersonalizationGraph.Controllers.GraphController.<Get>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-01-22T11:06:28.8708317+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 10192.9383ms 500 text/html; charset=utf-8
+2018-01-22T11:06:58.5733505+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) User profile is available. Using '"C:\Users\mda.DK\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-22T11:07:01.6624685+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/  
+2018-01-22T11:07:01.7848087+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 139.6744ms 200 
+2018-01-22T11:07:01.8436931+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-22T11:07:01.8513551+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 7.4877ms 200 
+2018-01-22T11:07:05.6994090+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:07:05.7838861+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:07:05.8020860+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:07:06.1529987+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:07:06.2425938+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 454.0533ms
+2018-01-22T11:07:06.2501670+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 550.8606ms 200 application/json; charset=utf-8
+2018-01-22T11:07:06.2872916+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/favicon.ico  
+2018-01-22T11:07:06.2930299+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 4.8586ms 200 
+2018-01-22T11:13:51.9898424+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:13:52.0032127+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:13:52.0127572+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:13:52.0215735+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:13:52.0716729+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:13:52.0859980+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 73.4178ms
+2018-01-22T11:13:52.0986628+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 108.8438ms 200 application/json; charset=utf-8
+2018-01-22T11:14:30.9033645+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:14:33.0047846+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:14:34.0529638+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:14:34.3316662+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:14:34.3906300+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:14:34.4003621+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 347.2835ms
+2018-01-22T11:14:34.4202768+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 3516.8845ms 200 application/json; charset=utf-8
+2018-01-22T11:15:18.5854539+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:15:18.5929599+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:15:18.6070865+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:15:18.6155719+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:15:18.6303582+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:15:18.6405277+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 33.4411ms
+2018-01-22T11:15:18.6540842+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:15:18.6734157+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:15:18.6733802+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 69.04ms 200 application/json; charset=utf-8
+2018-01-22T11:15:18.7017503+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:15:18.7399203+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:15:18.8374382+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:15:18.8432511+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 141.5309ms
+2018-01-22T11:15:18.8485729+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 194.4944ms 200 application/json; charset=utf-8
+2018-01-22T11:15:37.4532895+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:15:37.4670407+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:15:37.4802921+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:15:37.5212090+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:15:37.6196269+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:15:37.6322104+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 151.9221ms
+2018-01-22T11:15:37.6356898+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:15:37.6454662+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 192.1784ms 200 application/json; charset=utf-8
+2018-01-22T11:15:37.6639944+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:15:37.6871041+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:15:37.6998025+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:15:37.8004817+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:15:37.8168916+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 129.7948ms
+2018-01-22T11:15:37.8374694+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 199.6144ms 200 application/json; charset=utf-8
+2018-01-22T11:17:32.7129533+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:17:32.7175420+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:17:32.7218267+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:17:32.7272448+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:17:32.7418089+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:17:32.7464209+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 24.6123ms
+2018-01-22T11:17:32.7480540+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:17:32.7553757+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 38.7273ms 200 application/json; charset=utf-8
+2018-01-22T11:17:32.7617141+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:17:32.7730346+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:17:32.7788081+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:17:32.7878462+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:17:32.7928332+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 19.7951ms
+2018-01-22T11:17:32.8009629+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 52.8734ms 200 application/json; charset=utf-8
+2018-01-22T11:17:46.2368125+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:17:46.3026586+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:17:46.9615655+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:17:47.0361055+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:17:47.3438226+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:17:47.3913371+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 429.8448ms
+2018-01-22T11:17:47.4490983+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:17:48.0470180+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1810.181ms 200 application/json; charset=utf-8
+2018-01-22T11:17:48.1524347+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:17:48.1770908+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:17:48.1889428+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:17:48.2023395+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:17:48.2314351+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 54.3632ms
+2018-01-22T11:17:48.2610696+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 811.9523ms 200 application/json; charset=utf-8
+2018-01-22T11:18:10.1614421+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:18:10.1656538+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:18:10.1702776+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:18:10.1764686+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:18:10.1828251+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:18:10.1882046+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 17.9579ms
+2018-01-22T11:18:10.1900047+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:18:10.1953711+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 33.8236ms 200 application/json; charset=utf-8
+2018-01-22T11:18:10.2035423+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:18:10.2160097+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:18:10.2199005+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:18:10.2277689+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:18:10.2331669+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 17.1632ms
+2018-01-22T11:18:10.2397615+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 49.4031ms 200 application/json; charset=utf-8
+2018-01-22T11:18:35.9041658+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:18:35.9437872+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:18:37.9884908+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:18:38.0131568+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:18:38.0178548+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:18:38.0394212+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:18:38.0444966+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:18:38.0772040+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:18:38.0793526+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:18:38.1369356+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 123.7964ms
+2018-01-22T11:18:38.1432130+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:18:38.1646625+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:18:38.1829402+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 2278.0477ms 200 application/json; charset=utf-8
+2018-01-22T11:18:38.2033583+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:18:38.2110403+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:18:38.2088746+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 164.4016ms
+2018-01-22T11:18:38.2556850+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:18:38.2747080+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 2330.5923ms 200 application/json; charset=utf-8
+2018-01-22T11:18:38.2694850+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:18:38.2900661+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:18:38.3468055+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:18:38.3838215+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:18:38.3859022+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:18:38.4151309+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:18:38.4260421+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 170.445ms
+2018-01-22T11:18:38.4279329+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 81.1349ms
+2018-01-22T11:18:38.4439787+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 300.7917ms 200 application/json; charset=utf-8
+2018-01-22T11:18:38.5327510+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 315.2236ms 200 application/json; charset=utf-8
+2018-01-22T11:19:20.5416446+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:19:20.5468518+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:19:20.5583029+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:19:20.5701970+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:19:20.6144557+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:19:20.6212424+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 62.9484ms
+2018-01-22T11:19:20.6265088+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:19:20.6373307+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 95.6912ms 200 application/json; charset=utf-8
+2018-01-22T11:19:20.6535474+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:19:20.7223399+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:19:20.7408607+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:19:20.7769214+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:19:20.8048466+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 82.4834ms
+2018-01-22T11:19:20.8281322+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 201.6293ms 200 application/json; charset=utf-8
+2018-01-22T11:19:27.0139052+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:19:27.0177376+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:19:27.0210421+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:19:27.0248085+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:19:27.0338461+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:19:27.0386052+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 17.5825ms
+2018-01-22T11:19:27.0396799+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:19:27.0434383+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 29.4596ms 200 application/json; charset=utf-8
+2018-01-22T11:19:27.0498532+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:19:27.0863339+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:19:27.1038671+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:19:27.1155985+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:19:27.1486800+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 62.5036ms
+2018-01-22T11:19:27.1591951+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 118.5765ms 200 application/json; charset=utf-8
+2018-01-22T11:19:30.3913704+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:19:30.3974126+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:19:30.4022961+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:19:30.4064545+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:19:30.4169725+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:19:30.4212576+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 18.9606ms
+2018-01-22T11:19:30.4228765+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:19:30.4343466+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:19:30.4281536+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 36.0121ms 200 application/json; charset=utf-8
+2018-01-22T11:19:30.4707657+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:19:30.4847484+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:19:30.4927506+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:19:30.5023846+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 31.6299ms
+2018-01-22T11:19:30.5095708+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 86.6789ms 200 application/json; charset=utf-8
+2018-01-22T11:19:33.9779582+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:19:33.9828323+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:19:33.9865892+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:19:33.9935377+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:19:34.0006896+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:19:34.0049905+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 18.4221ms
+2018-01-22T11:19:34.0299905+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:19:34.0569773+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 78.8939ms 200 application/json; charset=utf-8
+2018-01-22T11:19:34.0851788+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:19:34.1031509+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:19:34.1186424+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:19:34.1273765+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:19:34.1415065+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 38.3523ms
+2018-01-22T11:19:34.1542402+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 124.2555ms 200 application/json; charset=utf-8
+2018-01-22T11:24:32.4857570+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:24:34.5921767+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:24:34.7865089+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:24:35.4726448+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:24:35.5031785+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:24:35.5113638+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 724.9662ms
+2018-01-22T11:24:35.5540577+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:24:35.6557781+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 3170.0242ms 200 application/json; charset=utf-8
+2018-01-22T11:24:35.6621468+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:24:35.6836729+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:24:35.6895465+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:24:35.6992626+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:24:35.7043310+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 20.6695ms
+2018-01-22T11:24:35.7133658+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 158.5845ms 200 application/json; charset=utf-8
+2018-01-22T11:25:36.0917231+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:25:36.6139354+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:25:36.6473915+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:25:36.6668092+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:25:36.7796551+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:25:36.9125875+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 265.2133ms
+2018-01-22T11:25:36.9396726+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:25:37.5496261+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1457.9069ms 200 application/json; charset=utf-8
+2018-01-22T11:25:37.5689251+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:25:37.5938383+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:25:37.6034265+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:25:37.6219829+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:25:37.6336760+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 39.8125ms
+2018-01-22T11:25:37.6416742+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 702.0122ms 200 application/json; charset=utf-8
+2018-01-22T11:28:24.3686703+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:28:24.3902474+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:28:24.7469001+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:28:25.2358670+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:28:25.8789585+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:28:25.8916117+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 1144.7222ms
+2018-01-22T11:28:25.9007105+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1532.0496ms 200 application/json; charset=utf-8
+2018-01-22T11:28:57.2782037+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:28:57.3880990+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:28:57.8078262+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:28:57.8255098+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:28:57.8563226+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:28:57.8741464+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 66.3367ms
+2018-01-22T11:28:57.8950705+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 616.8542ms 200 application/json; charset=utf-8
+2018-01-22T11:31:06.3101798+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:31:06.7938992+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:31:06.8035818+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:31:06.8170348+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:31:06.8447863+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:31:06.8500038+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 46.6142ms
+2018-01-22T11:31:06.8610231+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 550.8732ms 200 application/json; charset=utf-8
+2018-01-22T11:31:13.5249242+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:31:13.5296802+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:31:13.5454018+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:31:13.6930532+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:31:13.7107083+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:31:13.7206614+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 175.2725ms
+2018-01-22T11:31:13.7313810+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 206.4556ms 200 application/json; charset=utf-8
+2018-01-22T11:31:33.1913525+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:31:33.2069175+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:31:33.4024399+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:31:33.6257718+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:31:33.6380930+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:31:33.6522096+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 249.7791ms
+2018-01-22T11:31:33.6636251+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 472.3069ms 200 application/json; charset=utf-8
+2018-01-22T11:32:09.9254389+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:32:09.9370278+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:32:10.3968734+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:32:10.4032613+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:32:10.4423191+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:32:10.4485046+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 51.6367ms
+2018-01-22T11:32:10.4917949+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 566.358ms 200 application/json; charset=utf-8
+2018-01-22T11:34:05.2561319+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:34:05.2618910+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:34:05.7763742+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:34:06.2930752+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:34:06.3305667+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:34:06.3374794+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 561.1144ms
+2018-01-22T11:34:06.3492776+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1093.1431ms 200 application/json; charset=utf-8
+2018-01-22T11:34:42.0602998+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:34:42.2123103+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:34:42.4115633+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:34:42.4249887+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:34:42.4440948+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:34:42.4698773+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 58.3345ms
+2018-01-22T11:34:42.5178068+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 457.5054ms 200 application/json; charset=utf-8
+2018-01-22T11:35:49.1221015+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:35:49.1280205+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:35:49.1367271+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:35:49.1775014+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:35:49.5365486+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:35:49.5445848+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 407.8662ms
+2018-01-22T11:35:49.5693389+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 447.2599ms 200 application/json; charset=utf-8
+2018-01-22T11:36:10.5290869+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:36:10.5358088+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:36:10.6091526+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:36:10.9175574+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:36:10.9529369+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:36:11.0074347+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 398.274ms
+2018-01-22T11:36:11.0312725+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 502.1865ms 200 application/json; charset=utf-8
+2018-01-22T11:37:36.2755194+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:37:36.2823161+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:37:36.2899559+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:37:36.3010957+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:37:36.6778004+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:37:36.6856404+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 395.7029ms
+2018-01-22T11:37:36.6958691+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 420.2431ms 200 application/json; charset=utf-8
+2018-01-22T11:38:54.0789748+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:38:54.0870513+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:38:54.5169526+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:38:54.5328201+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:38:54.5555265+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:38:54.5635098+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 46.5719ms
+2018-01-22T11:38:54.5831359+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 504.1607ms 200 application/json; charset=utf-8
+2018-01-22T11:39:21.2467744+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:39:21.2520011+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:39:21.2619353+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:39:21.4197008+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:39:21.8549819+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:39:21.9260159+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 664.0629ms
+2018-01-22T11:39:21.9923156+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 745.5208ms 200 application/json; charset=utf-8
+2018-01-22T11:39:40.2911351+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:39:41.6911126+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:39:41.7950249+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:39:41.8669373+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:39:42.0614205+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:39:42.0739831+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 278.9971ms
+2018-01-22T11:39:42.0947713+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1803.6067ms 200 application/json; charset=utf-8
+2018-01-22T11:40:12.9065822+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:40:13.4176641+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:40:13.6441401+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:40:13.6524665+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:40:13.6769185+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:40:13.6822190+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 38.072ms
+2018-01-22T11:40:13.6942750+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 787.7141ms 200 application/json; charset=utf-8
+2018-01-22T11:40:28.1794803+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:40:28.1865166+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:40:28.2011639+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:40:28.2068599+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:40:28.6560430+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:40:28.6705150+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 469.3549ms
+2018-01-22T11:40:28.6957618+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 516.2671ms 200 application/json; charset=utf-8
+2018-01-22T11:40:42.3318510+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:40:42.3378810+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:40:42.3481176+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:40:42.3591718+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:40:44.0652438+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:40:44.1331418+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 1785.01ms
+2018-01-22T11:40:44.2036765+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1871.8043ms 200 application/json; charset=utf-8
+2018-01-22T11:41:00.7332401+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:41:00.8270252+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:41:01.1055925+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:41:01.1182751+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:41:01.1794649+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:41:01.1883416+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 82.804ms
+2018-01-22T11:41:01.2085922+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 475.3544ms 200 application/json; charset=utf-8
+2018-01-22T11:41:30.5509922+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:41:30.5802999+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:41:30.9559410+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:41:31.0114083+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:41:31.0419977+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:41:31.0481525+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 92.2347ms
+2018-01-22T11:41:31.0772931+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 526.3106ms 200 application/json; charset=utf-8
+2018-01-22T11:41:45.7392804+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:41:45.7550105+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:41:45.7644130+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:41:45.8284155+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:41:46.2481525+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:41:46.3310748+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 566.6536ms
+2018-01-22T11:41:46.3657856+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 626.525ms 200 application/json; charset=utf-8
+2018-01-22T11:42:09.7080760+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:42:09.7135067+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:42:09.7397885+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:42:10.1013074+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:42:10.1430255+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:42:10.1575599+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 417.7813ms
+2018-01-22T11:42:10.2011283+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 493.0621ms 200 application/json; charset=utf-8
+2018-01-22T11:42:33.2560663+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:42:33.2665054+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:42:33.2956531+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:42:33.3046292+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:42:33.3194822+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:42:33.3268031+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 31.1633ms
+2018-01-22T11:42:33.3418436+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:42:33.3464761+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 89.3976ms 200 application/json; charset=utf-8
+2018-01-22T11:42:33.3646167+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:42:33.4302579+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:42:33.4524290+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:42:33.5184823+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:42:33.5494617+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 119.2141ms
+2018-01-22T11:42:33.5848961+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 242.9348ms 200 application/json; charset=utf-8
+2018-01-22T11:42:54.8443241+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:42:54.9198908+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:42:55.5557886+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:42:56.1056564+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:42:56.2215107+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:42:56.2407653+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 684.976ms
+2018-01-22T11:42:56.2618354+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:42:56.2723388+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1428.0178ms 200 application/json; charset=utf-8
+2018-01-22T11:42:56.3063781+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:42:56.4053760+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:42:56.4160279+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:42:56.6217539+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:42:56.6706358+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 265.2568ms
+2018-01-22T11:42:56.7434499+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 481.4601ms 200 application/json; charset=utf-8
+2018-01-22T11:43:24.0863470+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:43:24.0942620+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:43:24.1307835+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:43:24.1550192+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:43:24.1794890+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:43:24.2117403+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 80.9482ms
+2018-01-22T11:43:24.2450643+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:43:24.2594135+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 172.8783ms 200 application/json; charset=utf-8
+2018-01-22T11:43:24.3225476+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:43:24.3676591+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:43:24.4584574+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:43:24.5795565+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:43:24.6414250+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 273.8755ms
+2018-01-22T11:43:24.7501336+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 504.9348ms 200 application/json; charset=utf-8
+2018-01-22T11:43:29.9815745+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:43:29.9856493+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:43:29.9902542+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:43:30.0000747+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:43:30.0094413+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:43:30.0205073+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 30.2597ms
+2018-01-22T11:43:30.0216019+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:43:30.0322487+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 50.0028ms 200 application/json; charset=utf-8
+2018-01-22T11:43:30.0403931+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:43:30.0637244+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:43:30.0691878+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:43:30.0978461+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:43:30.1026164+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 38.9547ms
+2018-01-22T11:43:30.1318035+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 109.9791ms 200 application/json; charset=utf-8
+2018-01-22T11:43:36.7168444+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:43:36.7211501+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:43:36.7251522+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:43:36.7308680+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:43:36.7423789+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:43:36.7462069+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 21.0931ms
+2018-01-22T11:43:36.7474259+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:43:36.7535989+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 36.3185ms 200 application/json; charset=utf-8
+2018-01-22T11:43:36.7590020+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:43:36.7674953+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:43:36.7747455+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:43:36.7966292+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:43:36.8010450+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 33.5627ms
+2018-01-22T11:43:36.8112998+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 63.8757ms 200 application/json; charset=utf-8
+2018-01-22T11:43:43.5149105+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:43:43.5187543+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:43:43.5232029+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:43:43.5291863+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:43:43.5449701+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:43:43.5515232+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 28.3313ms
+2018-01-22T11:43:43.5526711+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:43:43.5582926+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 42.8517ms 200 application/json; charset=utf-8
+2018-01-22T11:43:43.5625422+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:43:43.5752378+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:43:43.5823609+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:43:43.5930842+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:43:43.5994561+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 24.2255ms
+2018-01-22T11:43:43.6106598+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 57.9713ms 200 application/json; charset=utf-8
+2018-01-22T11:44:12.4666839+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:44:12.4873983+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:44:12.4876959+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:44:12.5109044+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:44:12.5153076+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:44:12.5284015+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:44:12.5330211+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:44:12.6133826+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:44:12.6171088+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:44:12.7050158+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 194.1328ms
+2018-01-22T11:44:12.7138324+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:44:12.9027372+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 436.076ms 200 application/json; charset=utf-8
+2018-01-22T11:44:12.9963501+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:44:12.9368996+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:44:13.0675899+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:44:13.1165629+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:44:13.3343885+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:44:13.3137077+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 780.6152ms
+2018-01-22T11:44:13.3988233+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:44:13.5573187+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:44:13.6150848+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1126.7026ms 200 application/json; charset=utf-8
+2018-01-22T11:44:13.6425544+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:44:13.6662764+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 598.689ms
+2018-01-22T11:44:14.6336687+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:44:14.7625039+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 2048.6815ms 200 application/json; charset=utf-8
+2018-01-22T11:44:14.9775625+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:44:15.4365958+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 1794.0038ms
+2018-01-22T11:44:15.5859679+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 2252.2447ms 200 application/json; charset=utf-8
+2018-01-22T11:45:02.4357929+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:03.3180765+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:03.3787362+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:03.6022550+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:03.6390501+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:03.6445305+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:03.6556408+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:03.6812996+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:03.6916460+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:03.7007716+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 98.4992ms
+2018-01-22T11:45:03.7043253+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:03.8271850+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:04.5407821+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 2104.9234ms 200 application/json; charset=utf-8
+2018-01-22T11:45:04.5778950+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:04.6804378+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:04.6303262+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 974.9782ms
+2018-01-22T11:45:04.7196212+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:04.7493173+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:04.7534457+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1372.7987ms 200 application/json; charset=utf-8
+2018-01-22T11:45:04.7589878+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:04.7784753+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:04.7946653+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:04.7973050+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:04.8086876+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:04.8133525+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 93.7751ms
+2018-01-22T11:45:04.8189029+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 40.4461ms
+2018-01-22T11:45:04.8529717+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1148.6654ms 200 application/json; charset=utf-8
+2018-01-22T11:45:05.3263886+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 666.244ms 200 application/json; charset=utf-8
+2018-01-22T11:45:11.0156303+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:11.0220314+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:11.0320201+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:11.0397906+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:11.1111441+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:11.1745486+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 142.5455ms
+2018-01-22T11:45:11.1766723+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:11.1941730+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 178.5509ms 200 application/json; charset=utf-8
+2018-01-22T11:45:11.2436294+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:11.3015249+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:11.3885022+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:12.0426468+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:12.1271458+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:12.1327676+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:12.1737235+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 872.2164ms
+2018-01-22T11:45:12.1986469+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:12.2241198+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1027.5083ms 200 application/json; charset=utf-8
+2018-01-22T11:45:12.7861964+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:13.4334638+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:13.4509581+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 1252.1496ms
+2018-01-22T11:45:13.4671765+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:13.4878254+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1445.1712ms 200 application/json; charset=utf-8
+2018-01-22T11:45:13.5869145+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:13.7074882+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:13.7872832+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:13.8041814+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:13.8114450+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 103.9614ms
+2018-01-22T11:45:13.8331168+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 365.8983ms 200 application/json; charset=utf-8
+2018-01-22T11:45:24.1516696+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:24.2378200+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:24.5711646+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:25.0954210+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:25.6037673+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:25.7138632+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:25.9250701+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:26.2706967+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:26.8669779+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 2295.8185ms
+2018-01-22T11:45:27.0083015+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:27.1753365+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:27.2332956+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:27.2594582+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 3107.6279ms 200 application/json; charset=utf-8
+2018-01-22T11:45:27.3694593+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:27.3783935+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:27.4111423+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:27.4585406+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 1187.7141ms
+2018-01-22T11:45:27.4855073+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:45:27.5196532+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 2424.2088ms 200 application/json; charset=utf-8
+2018-01-22T11:45:27.5087526+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:27.5361575+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:45:27.5590099+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 189.5449ms
+2018-01-22T11:45:27.5620515+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:45:27.5673994+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 558.5954ms 200 application/json; charset=utf-8
+2018-01-22T11:45:27.5743496+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:45:27.5936183+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:45:27.5986224+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 36.5612ms
+2018-01-22T11:45:27.6123692+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 126.8582ms 200 application/json; charset=utf-8
+2018-01-22T11:46:12.6101932+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:46:12.6735619+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:46:12.7745189+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:46:12.9343009+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:46:13.7732616+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:46:13.8063886+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 1031.8226ms
+2018-01-22T11:46:13.8386790+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:46:13.8394997+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1229.2947ms 200 application/json; charset=utf-8
+2018-01-22T11:46:13.8947460+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:46:14.0555586+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:46:14.0677793+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:46:14.0886034+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:46:14.0953638+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 39.8066ms
+2018-01-22T11:46:14.1103901+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 271.6909ms 200 application/json; charset=utf-8
+2018-01-22T11:46:31.1563298+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:46:31.1624289+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:46:31.1702223+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:46:31.2010151+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:46:31.2515337+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:46:31.2762624+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 106.0019ms
+2018-01-22T11:46:31.3027826+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:46:31.3361246+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 163.744ms 200 application/json; charset=utf-8
+2018-01-22T11:46:31.4162995+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:46:31.5138668+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:46:32.0993189+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:46:32.2119259+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:46:32.2171400+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 703.3216ms
+2018-01-22T11:46:32.2330959+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 930.3145ms 200 application/json; charset=utf-8
+2018-01-22T11:47:23.8356824+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:47:23.8527061+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:47:23.8632609+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:47:23.8788437+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:47:23.9053154+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:47:23.9097419+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 46.5241ms
+2018-01-22T11:47:23.9261230+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 89.9673ms 200 application/json; charset=utf-8
+2018-01-22T11:47:23.9110094+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:47:23.9573752+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:47:23.9626393+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:47:23.9711918+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:47:23.9785933+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:47:23.9924036+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 29.7655ms
+2018-01-22T11:47:24.0051758+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 94.1623ms 200 application/json; charset=utf-8
+2018-01-22T11:47:46.1972600+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:47:46.2131141+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:47:46.2473669+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:47:46.2580370+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:47:46.2724951+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:47:46.2790206+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 30.0051ms
+2018-01-22T11:47:46.2794671+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:47:46.3061822+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 106.0675ms 200 application/json; charset=utf-8
+2018-01-22T11:47:46.3261608+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:47:46.3640253+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:47:46.3929749+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:47:46.4336240+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:47:46.4418201+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 77.7495ms
+2018-01-22T11:47:46.5111290+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 231.7098ms 200 application/json; charset=utf-8
+2018-01-22T11:48:53.2737201+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:48:53.2810801+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:48:53.2962899+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:48:53.3041310+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:48:53.3275994+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:48:53.3471603+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 50.876ms
+2018-01-22T11:48:53.3576341+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:48:53.3768220+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 103.1068ms 200 application/json; charset=utf-8
+2018-01-22T11:48:53.5202800+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:48:53.7369576+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:48:54.4374102+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:48:54.4455135+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:48:54.4521546+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 715.3112ms
+2018-01-22T11:48:54.4592904+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1101.6154ms 200 application/json; charset=utf-8
+2018-01-22T11:49:03.9259607+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:49:03.9376828+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:49:04.0121750+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:49:04.0864536+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:49:04.2873454+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:49:04.3041449+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 291.9112ms
+2018-01-22T11:49:04.3324364+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:49:04.3527142+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 426.6006ms 200 application/json; charset=utf-8
+2018-01-22T11:49:04.3817589+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:49:05.3967034+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:49:05.6437758+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:49:05.7888839+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:49:05.8490340+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 452.2528ms
+2018-01-22T11:49:05.9376966+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1605.1429ms 200 application/json; charset=utf-8
+2018-01-22T11:50:10.1791972+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:50:11.3023259+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:50:11.6681666+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:50:11.8623636+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:50:12.2887582+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:50:12.2951344+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 626.9766ms
+2018-01-22T11:50:12.3072351+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:50:12.3207810+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 2129.1604ms 200 application/json; charset=utf-8
+2018-01-22T11:50:12.3354022+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:50:12.4149841+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:50:12.6796976+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:50:14.1768109+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:50:14.1883916+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 1773.4053ms
+2018-01-22T11:50:14.2176113+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1910.3409ms 200 application/json; charset=utf-8
+2018-01-22T11:51:30.7013500+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:51:30.7212543+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:51:30.7284235+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:51:30.7379818+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:51:30.7595062+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:51:30.7677452+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 39.3526ms
+2018-01-22T11:51:30.7707892+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:51:30.7871955+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 89.3917ms 200 application/json; charset=utf-8
+2018-01-22T11:51:30.8437114+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:51:30.8665072+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:51:30.8750889+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:51:30.8939189+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:51:30.9105661+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 44.0751ms
+2018-01-22T11:51:30.9246598+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 153.858ms 200 application/json; charset=utf-8
+2018-01-22T11:51:42.7855643+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:51:42.8848379+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:51:42.9449560+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:51:43.3179432+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:51:43.7083842+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:51:43.7150853+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 770.1371ms
+2018-01-22T11:51:43.7214244+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:51:43.7426964+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 957.1071ms 200 application/json; charset=utf-8
+2018-01-22T11:51:43.7634427+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:51:43.7822985+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:51:43.7873238+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:51:43.7950010+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:51:43.8043727+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 22.0717ms
+2018-01-22T11:51:43.8120369+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 90.617ms 200 application/json; charset=utf-8
+2018-01-22T11:51:47.3093930+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:51:47.3145359+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:51:47.3190781+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:51:47.3248459+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:51:47.3316464+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:51:47.3369820+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 17.931ms
+2018-01-22T11:51:47.3383759+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:51:47.3476363+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 36.6173ms 200 application/json; charset=utf-8
+2018-01-22T11:51:47.3720530+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:51:47.3928490+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:51:47.3974669+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:51:47.4759220+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:51:47.4947971+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 101.8712ms
+2018-01-22T11:51:47.5445662+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 206.1335ms 200 application/json; charset=utf-8
+2018-01-22T11:52:09.0742038+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:52:09.0874890+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:52:09.0997653+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:52:09.1085219+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:52:09.1223820+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:52:09.1323422+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 32.5213ms
+2018-01-22T11:52:09.1328916+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:52:09.1521575+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 72.7621ms 200 application/json; charset=utf-8
+2018-01-22T11:52:09.3705458+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:52:10.1969953+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:52:10.5836142+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:52:10.6400982+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:52:10.6484596+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 451.5189ms
+2018-01-22T11:52:10.6893983+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 1556.4618ms 200 application/json; charset=utf-8
+2018-01-22T11:52:13.0847084+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:52:13.0893393+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:52:13.0950728+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:52:13.0997242+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:52:13.1064869+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:52:13.1117487+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 16.6718ms
+2018-01-22T11:52:13.1128054+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:52:13.1198188+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 34.3317ms 200 application/json; charset=utf-8
+2018-01-22T11:52:13.1236507+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:52:13.1391166+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:52:13.1446066+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:52:13.1544645+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:52:13.1656836+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 26.5676ms
+2018-01-22T11:52:13.1733644+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 60.0383ms 200 application/json; charset=utf-8
+2018-01-22T11:52:24.3428924+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:52:24.3472530+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:52:24.3517812+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:52:24.3583765+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:52:24.3660629+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:52:24.3715351+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 19.7221ms
+2018-01-22T11:52:24.3718086+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request starting HTTP/1.1 GET http://localhost:51085/api/graph  
+2018-01-22T11:52:24.3766145+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 33.0518ms 200 application/json; charset=utf-8
+2018-01-22T11:52:24.3840762+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Policy execution successful.
+2018-01-22T11:52:24.4016640+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) GraphController: loaded
+2018-01-22T11:52:24.4162034+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing action method "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" with arguments (null) - ModelState is Valid
+2018-01-22T11:52:24.4235716+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-01-22T11:52:24.4346774+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Executed action "SCPersonalizationGraph.Controllers.GraphController.Get (SCPersonalizationGraph)" in 32.9828ms
+2018-01-22T11:52:24.4583370+08:00 [INF] (SerilogSample/LT-MDA2-T-MY) Request finished in 86.5139ms 200 application/json; charset=utf-8
