@@ -30,11 +30,13 @@ namespace SCPersonalizationGraph.Controllers
             var datas = await SQLDB.GetData();
             var summaryData = await SQLDB.GetSummaryByDate();
             var summaryRulesetData = await SQLDB.GetSummaryByDateAndRuleset();
+            var testValuePercentage = await SQLDB.GetTestValuePercentageRuleset();
             return this.Ok(new
             {
                 RawData = datas,
                 SummaryData = summaryData,
-                SummaryByRuleset = summaryRulesetData
+                SummaryByRuleset = summaryRulesetData,
+                TestValuePercentage = testValuePercentage
             });
         }        
     }

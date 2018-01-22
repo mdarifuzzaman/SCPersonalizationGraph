@@ -9,6 +9,7 @@ import { PersonalizationChartComponent } from './personalization-chart/personali
 import { PersonalizationDataService } from './personalization-data.service';
 import { Http } from '@angular/http';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
+import { PiChartComponent } from './pi-chart/pi-chart.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { BarChartComponent } from './bar-chart/bar-chart.component';
     AppComponent,
     PersonalizationChartComponent,
     BarChartComponent,
+    PiChartComponent,
   ],
   imports: [
     BrowserModule,
